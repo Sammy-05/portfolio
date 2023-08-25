@@ -1,0 +1,28 @@
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255);
+  pointer-events: none;
+  filter: blur(50px);
+  opacity: 7%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.custom-cursor:hover .cursor-circle {
+  opacity: 0;
+}

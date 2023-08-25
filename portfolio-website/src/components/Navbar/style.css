@@ -1,0 +1,35 @@
+/* styles.css */
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.barbelow {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .barbelow::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0; /* Start with 0 width */
+    background-color: #0090A3; /* Change this to the desired barbelow color */
+    transition: width 0.3s ease-in-out; /* Transition width property only */
+    /* cursor: pointer; */
+  }
+  
+  .barbelow:hover::after {
+    width: 100%; /* Expand width to 100% on hover */
+    /* cursor:pointer */
+  }
+  
