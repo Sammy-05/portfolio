@@ -33,17 +33,17 @@ const Education = () => {
                         <div className="flex flex-col">
                             <div>
                                 <h1 className="text-xl text-linecolor group-hover:text-skillsColor">
-                                    Lahore University of Management Sciences
+                                    Karachi Grammar School (KGS)
                                 </h1>
                             </div>
                             <div className="text-lg">
-                                <p>2020-2024</p>
+                                <p>2018-2020</p>
                             </div>
                             <div className="text-lg pt-2">
-                                <p>Bachelors Computer Science</p>
+                                <p>A Levels</p>
                             </div>
                             <div className="mt-text-sm text-skillsColor">
-                                <p>cGPA ~ 3.71</p>
+                                <p>Grades: 4A*s & As</p>
                             </div>
 
                         </div>
